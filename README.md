@@ -19,13 +19,18 @@
 
 ## Demo & Screenshots
 
-**[Watch the walkthrough on YouTube](https://youtu.be/JC7F7-73svI)**
+**Watch the walkthrough:**
+
+<video src="https://github.com/user-attachments/assets/UPLOAD_YOUR_VIDEO_IN_GITHUB" controls="controls" muted="muted" playsinline="playsinline" style="max-width: 100%;"></video>
+
+*(Tip: When editing this README on GitHub.com, you can drag and drop your `.mp4` video directly into the text editor, and GitHub will automatically generate a playable video link for you!)*
 
 <details>
 <summary>View Screenshots</summary>
 
 ![Landing Page Hero](/public/landing.png)
-![Contact Form Entry](/public/form.png)
+![Contact Form Submission](/public/form.png)
+![Contact Form Confirmation](/public/form_success.png)
 ![Admin Login Screen](/public/admin_login.png)
 ![Admin Secure Dashboard](/public/admin_dashboard.png)
 </details>
@@ -178,5 +183,3 @@ she-can/
 
 **Dhiptanshu Malik**
 [github.com/Dhiptanshu](https://github.com/Dhiptanshu)
-
-Built as an internship submission for She Can Foundation.
