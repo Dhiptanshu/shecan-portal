@@ -209,5 +209,3 @@ Next.js automatically loads `.env.local` during development. Add the same variab
 
 **Dhiptanshu Malik**
 [github.com/Dhiptanshu](https://github.com/Dhiptanshu)
-
-Built as an internship submission for She Can Foundation.
