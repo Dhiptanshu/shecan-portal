@@ -21,9 +21,7 @@
 
 **Watch the walkthrough:**
 
-<video src="https://github.com/user-attachments/assets/UPLOAD_YOUR_VIDEO_IN_GITHUB" controls="controls" muted="muted" playsinline="playsinline" style="max-width: 100%;"></video>
-
-*(Tip: When editing this README on GitHub.com, you can drag and drop your `.mp4` video directly into the text editor, and GitHub will automatically generate a playable video link for you!)*
+<video src="https://github.com/user-attachments/assets/0452cd5e-d999-4251-89d9-a0041d3db631" controls="controls" muted="muted" playsinline="playsinline" style="max-width: 100%;"></video>
 
 <details>
 <summary>View Screenshots</summary>
