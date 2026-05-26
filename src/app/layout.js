@@ -35,7 +35,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable} ${syne.variable} scroll-smooth`}>
+    <html lang="en" className={`${inter.variable} ${playfair.variable} ${syne.variable} scroll-smooth`} suppressHydrationWarning>
       <body className="bg-[#FAFAFA] text-[#111111] antialiased">
         {children}
       </body>

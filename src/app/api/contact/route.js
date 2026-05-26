@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { supabase } from '@/lib/supabase';
 
 export async function POST(request) {
   try {
@@ -20,14 +21,23 @@ export async function POST(request) {
       );
     }
 
-    // In a real application, you would save this to a database or send an email here.
-    // For this demonstration, we'll return a successful response.
-    
+    // Insert into Supabase
+    const { error } = await supabase
+      .from('submissions')
+      .insert([
+        { name: data.name, email: data.email, message: data.message }
+      ]);
+
+    if (error) {
+      throw error;
+    }
+
     return NextResponse.json(
       { message: 'Form submitted successfully!' },
       { status: 200 }
     );
   } catch (error) {
+    console.error('Supabase insertion error:', error);
     return NextResponse.json(
       { error: 'Internal Server Error' },
       { status: 500 }

@@ -84,6 +84,7 @@ function Navbar() {
               src="/she-YlenJon1O7ieeEoa.avif"
               alt="She Can Foundation Logo"
               fill
+              sizes="36px"
               className="object-contain"
               priority
             />
@@ -722,6 +723,7 @@ function Footer() {
                 src="/she-YlenJon1O7ieeEoa.avif"
                 alt="She Can Foundation Logo"
                 fill
+                sizes="36px"
                 className="object-contain"
               />
             </div>
